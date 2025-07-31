@@ -1,4 +1,4 @@
-package router
+package initialize
 
 import (
 	"go-ecommerce-backend-api/internal/controller"
@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func NewRouter() *gin.Engine {
+func InitRouter() *gin.Engine {
 	router := gin.Default()
 
 	router.Use(middlewares.AuthMiddleware())

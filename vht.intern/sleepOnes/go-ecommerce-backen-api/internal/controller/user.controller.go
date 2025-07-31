@@ -1,6 +1,7 @@
 package controller
 
 import (
+	"fmt"
 	"go-ecommerce-backend-api/internal/service"
 	"go-ecommerce-backend-api/pkg/response"
 	"strconv"
@@ -19,6 +20,7 @@ func NewUserController() *UserController {
 }
 
 func (uc *UserController) GetUserById(c *gin.Context) {
+	fmt.Println("GetUserById called")
 	uidStr := c.Query("uid")
 	userName := c.Param("name")
 	uid, err := strconv.Atoi(uidStr)

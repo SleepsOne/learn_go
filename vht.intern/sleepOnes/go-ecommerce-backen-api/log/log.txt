@@ -1,0 +1,4 @@
+{"level":"INFO","time":"2025-07-22T23:15:34.409+0700","msg":"Hello world","line":1,"name":"Duc"}
+{"level":"ERROR","time":"2025-07-22T23:15:34.409+0700","msg":"Error log","line":2}
+{"level":"INFO","time":"2025-07-28T21:17:29.243+0700","msg":"Hello world","line":1,"name":"Duc"}
+{"level":"ERROR","time":"2025-07-28T21:17:29.244+0700","msg":"Error log","line":2}
