@@ -2,4 +2,4 @@
 APP_SERVER = server
 
 run:
-	go run ./cmd/${APP_SERVER}/`
+	go run ./cmd/${APP_SERVER}/

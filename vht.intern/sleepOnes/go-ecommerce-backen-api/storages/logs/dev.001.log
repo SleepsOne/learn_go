@@ -1,0 +1,46 @@
+{"level":"INFO","time":"2025-07-31T23:13:01.345+0700","caller":"initialize/run.go:15","msg":"config log okee","ok":"success"}
+{"level":"INFO","time":"2025-07-31T23:15:00.090+0700","caller":"initialize/run.go:15","msg":"config log okee","ok":"success"}
+{"level":"INFO","time":"2025-07-31T23:15:38.607+0700","caller":"initialize/run.go:15","msg":"config log okee","ok":"success"}
+{"level":"DEBUG","time":"2025-07-31T23:22:01.240+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success"}
+{"level":"DEBUG","time":"2025-07-31T23:24:02.774+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"DEBUG","time":"2025-08-01T12:20:16.985+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"ERROR","time":"2025-08-01T12:20:17.020+0700","caller":"initialize/mysql.go:16","msg":"InitialMysql initialization failed!","error":"dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.","stacktrace":"go-ecommerce-backend-api/internal/initialize.CheckPanicError\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/mysql.go:16\ngo-ecommerce-backend-api/internal/initialize.InitMySQL\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/mysql.go:33\ngo-ecommerce-backend-api/internal/initialize.Run\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/run.go:16\nmain.main\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/cmd/server/main.go:6\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:283"}
+{"level":"DEBUG","time":"2025-08-01T12:22:13.200+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T12:22:13.292+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"ERROR","time":"2025-08-01T12:22:13.360+0700","caller":"initialize/mysql.go:16","msg":"Migration Tables failed!","error":"Error 1046 (3D000): No database selected","stacktrace":"go-ecommerce-backend-api/internal/initialize.CheckPanicError\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/mysql.go:16\ngo-ecommerce-backend-api/internal/initialize.migrateTables\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/mysql.go:60\ngo-ecommerce-backend-api/internal/initialize.InitMySQL\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/mysql.go:39\ngo-ecommerce-backend-api/internal/initialize.Run\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/run.go:16\nmain.main\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/cmd/server/main.go:6\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:283"}
+{"level":"DEBUG","time":"2025-08-01T12:26:02.856+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T12:26:02.906+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"ERROR","time":"2025-08-01T12:26:02.968+0700","caller":"initialize/mysql.go:16","msg":"Migration Tables failed!","error":"Error 1046 (3D000): No database selected","stacktrace":"go-ecommerce-backend-api/internal/initialize.CheckPanicError\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/mysql.go:16\ngo-ecommerce-backend-api/internal/initialize.migrateTables\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/mysql.go:60\ngo-ecommerce-backend-api/internal/initialize.InitMySQL\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/mysql.go:39\ngo-ecommerce-backend-api/internal/initialize.Run\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/internal/initialize/run.go:16\nmain.main\n\tD:/learn_go/vht.intern/sleepOnes/go-ecommerce-backen-api/cmd/server/main.go:6\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:283"}
+{"level":"DEBUG","time":"2025-08-01T12:26:27.291+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T12:26:27.343+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-01T12:26:27.926+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-01T12:27:56.347+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T12:27:56.390+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-01T12:27:56.823+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-01T12:31:53.797+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T12:31:53.851+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-01T12:31:54.180+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-01T12:33:07.021+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T12:33:07.076+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-01T12:33:07.442+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-01T12:35:38.479+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T12:35:38.519+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-01T12:35:38.850+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-01T16:12:26.764+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T16:12:27.016+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-01T16:12:27.925+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-01T16:13:07.290+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-01T16:13:07.349+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-01T16:13:07.771+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-02T17:44:23.334+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-02T17:44:23.404+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-02T17:44:23.739+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-02T23:41:39.494+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-02T23:41:39.642+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-02T23:41:40.040+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"INFO","time":"2025-08-02T23:41:40.047+0700","caller":"initialize/redis.go:33","msg":"Redis connected successfully!","success":true}
+{"level":"DEBUG","time":"2025-08-03T00:08:26.812+0700","caller":"logger/logger.go:19","msg":"config log okee","ok":"success","age":15}
+{"level":"INFO","time":"2025-08-03T00:08:27.081+0700","caller":"initialize/mysql.go:34","msg":"InitialMysql successfully!","success":true}
+{"level":"INFO","time":"2025-08-03T00:08:27.998+0700","caller":"initialize/mysql.go:62","msg":"Migration Tables successfully!","success":true}
+{"level":"INFO","time":"2025-08-03T00:08:28.043+0700","caller":"initialize/redis.go:33","msg":"Redis connected successfully!","success":true}
+{"level":"INFO","time":"2025-08-03T00:08:28.060+0700","caller":"initialize/redis.go:52","msg":"Value of foo is::","foo":"bar"}
